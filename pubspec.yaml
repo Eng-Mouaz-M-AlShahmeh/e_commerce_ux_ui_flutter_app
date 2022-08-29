@@ -1,0 +1,37 @@
+# Developed by: Eng. Mouaz M. AlShahmeh
+name: e_commerce_flutter_app
+description: Developed by Eng Mouaz M AlShahmeh
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+    version: ^0.0.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.4
+  provider: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Markazi
+      fonts:
+        - asset: assets/fonts/markazi/MarkaziText-Regular.ttf
+        - asset: assets/fonts/markazi/MarkaziText-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/markazi/MarkaziText-Medium.ttf
+          weight: 300
